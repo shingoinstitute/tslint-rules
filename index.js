@@ -30,7 +30,7 @@ module.exports = {
                 },
                 "singleline": "never"
             }
-        }
+        },
         "variable-name": { options: ["allow-leading-underscore"] },
     }
 }
