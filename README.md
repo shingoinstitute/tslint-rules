@@ -3,7 +3,7 @@ tslint rules common to all shingo projects
 
 ## Install
 ```
-npm install --save-dev @shingo/tslint-config && npm install --save-dev tslint
+npm install --save-dev @shingo/tslint-rules && npm install --save-dev tslint
 ```
 
 ## Usage
