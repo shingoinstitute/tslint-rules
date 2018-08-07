@@ -10,7 +10,7 @@ npm install --save-dev @shingo/tslint-config && npm install --save-dev tslint
 Add the following to your `tslint.json`
 ```json
 {
-  "extends": "@shingo/tslint-config"
+  "extends": "@shingo/tslint-rules"
 }
 ```
 
