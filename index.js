@@ -11,14 +11,13 @@ module.exports = {
         // requiring members to be marked as public just adds noise
         "member-access": { options: ["no-public"] },
         "no-implicit-dependencies": { options: ["dev"] },
-        "no-unused-variable": { options: ["allow-leading-underscore"] },
         // increases maintenance while providing little benefit
         // (object keys are usally grouped by a different metric than lexical position)
         "object-literal-sort-keys": false,
         // Ordering imports provides little benefit while increasing maintenance
         "ordered-imports": false,
         "quotemark": { options: ["single"] },
-        // this is mostly stylistic, but js doesn't require parens and they create noise
+        // this is mostly stylistic, but js doesn't require semicolons and they create noise
         "semicolon": { options: ["never"] },
         "trailing-comma": {
             options: {
@@ -26,11 +25,13 @@ module.exports = {
                 "multiline": {
                     "objects": "always",
                     "arrays": "always",
-                    "functions": "never"
+                    "functions": "always"
                 },
                 "singleline": "never"
             }
         },
         "variable-name": { options: ["allow-leading-underscore"] },
+        "no-inferrable-types": true,
+        "no-parameter-reassignment": true
     }
 }
